@@ -1,0 +1,178 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 16px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    margin: 64px;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    margin-left: 130px;
+}
+
+.intro-text h2{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.intro-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.intro-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.intro button {
+  cursor: pointer;
+  padding: 8px 24px;
+  border-radius: 8px;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.card-container .text {
+    width: 12vw;
+    height: 12vw;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(112, 112, 112);
+}
+
+.card {
+    width: 12vw;
+    height: 12vw;
+    border: 4px solid royalblue;
+    border-radius: 16px;
+}
+
+.section2 h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 142px 160px;
+}
+
+.say {
+    text-align: end;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.section4{
+    color: white;
+    padding: px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.signUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 96px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    margin: 96px;
+}
+.left h4{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.left {
+    padding-right: 128px;
+}
+
+.section4 button {
+  cursor: pointer;
+  padding: 8px 24px;
+  border-radius: 8px;
+  background: royalblue;
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 30px;
+    color: white;
+    font-size: 18px;
+}
